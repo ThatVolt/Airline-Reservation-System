@@ -46,7 +46,6 @@ cd airline-reservation-system
 pip install -r requirements.txt
 
 3. Set up MySQL database
-
 Open MySQL and run the SQL script:
 ```
 source db_setup.sql;
