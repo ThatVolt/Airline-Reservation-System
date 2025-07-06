@@ -5,7 +5,6 @@ A terminal-based Airline Reservation System built in Python using MySQL for pers
 ---
 
 ## 📁 Project Structure
-
 ```
 📁 Project Root
 ├── main.py 
@@ -18,7 +17,6 @@ A terminal-based Airline Reservation System built in Python using MySQL for pers
 ├── 📁 user/ # Booking, seat selection, search, etc.
 └── db.py # MySQL database connector
 ```
-
 ## 🚀 Features
 
 ### 👤 User Features:
@@ -37,34 +35,24 @@ A terminal-based Airline Reservation System built in Python using MySQL for pers
 - Generate reports
 - Export all reservations to CSV
 
----
-
 ## 🛠️ Installation & Setup
 
 ### 1. Clone the repository
 ```bash
 git clone https://github.com/ThatVolt/airline-reservation-system.git
 cd airline-reservation-system
+
 2. Install dependencies
-bash
-Copy
-Edit
 pip install -r requirements.txt
+
 3. Set up MySQL database
 Open MySQL and run the SQL script:
-
-bash
-Copy
-Edit
 source db_setup.sql;
 This creates the database airline_db with all required tables.
 
 4. Configure DB Connection
 Make sure the app/db.py has your correct DB credentials:
 
-python
-Copy
-Edit
 mysql.connector.connect(
     host="localhost",
     user="root",
@@ -74,12 +62,7 @@ mysql.connector.connect(
 ✅ How to Run
 From your project directory:
 
-bash
-Copy
-Edit
 python main.py
-📸 Screenshots
-You can add terminal screenshots or GIFs here to showcase features.
 
 🤝 Contributing
 Contributions are welcome! If you'd like to add a feature or fix a bug, feel free to open a pull request.
