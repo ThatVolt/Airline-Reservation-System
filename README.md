@@ -46,19 +46,24 @@ cd airline-reservation-system
 pip install -r requirements.txt
 
 3. Set up MySQL database
+
 Open MySQL and run the SQL script:
+```
 source db_setup.sql;
+```
 This creates the database airline_db with all required tables.
 
 4. Configure DB Connection
 Make sure the app/db.py has your correct DB credentials:
-
+```
 mysql.connector.connect(
     host="localhost",
     user="root",
     password="your_mysql_password",
     database="airline_db"
 )
+```
+
 ✅ How to Run
 From your project directory:
 
