@@ -6,6 +6,7 @@ A terminal-based Airline Reservation System built in Python using MySQL for pers
 
 ## 📁 Project Structure
 
+```
 📁 Project Root
 ├── main.py 
 ├── db_setup.sql 
@@ -16,6 +17,7 @@ A terminal-based Airline Reservation System built in Python using MySQL for pers
 ├── 📁 admin/ # Admin-only features
 ├── 📁 user/ # Booking, seat selection, search, etc.
 └── db.py # MySQL database connector
+```
 
 ## 🚀 Features
 
