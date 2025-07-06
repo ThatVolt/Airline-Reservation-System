@@ -48,6 +48,7 @@ pip install -r requirements.txt
 3. Set up MySQL database
 Open MySQL and run the SQL script:
 ```
+```bash
 source db_setup.sql;
 ```
 This creates the database airline_db with all required tables.
